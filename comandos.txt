@@ -6,7 +6,10 @@ yarn add eslint@6.2.2 -D
 yarn eslint --init
 
 //adiciona prettier eslint-config e eslint pluglin
-yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint@10.0.2 -D
+
+//adiciona plugin hooks
+yarn add eslint-plugin-react-hooks -D
 
 //adicona roteador de mapeamentos
 yarn add react-router-dom
